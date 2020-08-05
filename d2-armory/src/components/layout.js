@@ -33,7 +33,10 @@ const Layout = ({ children }) => {
           padding: `0 1.0875rem 1.45rem`,
         }}
       >
-        <main>{children}</main>
+        <main>
+          {children}
+          <h1>Welcome</h1>
+        </main>
         <footer>
           © {new Date().getFullYear()}, Built with
           {` `}
