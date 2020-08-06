@@ -5,6 +5,9 @@ html {
 }
 body {
   margin: 0;
+  background-image: url(../images/d4-hellgate.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
